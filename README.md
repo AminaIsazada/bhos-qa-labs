@@ -1,1 +1,1 @@
-![workflow](https://github.com/AminaIsazada/bhos-qa-labs/actions/workflows/gradle.yml/badge.svg
+![workflow](https://github.com/AminaIsazada/bhos-qa-labs/actions/workflows/gradle.yml/badge.svg)
