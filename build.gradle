@@ -42,10 +42,10 @@ jacocoTestReport {
 
 test {
     useJUnitPlatform()
-    finalizedBy jacocoTestReport
-    testLogging {
-        outputs.upToDateWhen { false }
-        showStandardStreams = true
-        exceptionFormat = 'full'
+    test {
+        finalizedBy jacocoTestReport
     }
+    jacocoTestReport {
+        dependsOn test
+}
 }
