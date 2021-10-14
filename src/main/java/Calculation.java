@@ -1,3 +1,6 @@
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+
 public class Calculation {
     int result;
     //Method for addition - 1
