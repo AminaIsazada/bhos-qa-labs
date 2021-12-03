@@ -37,15 +37,6 @@ public class Calculation {
         return result;
     }
    
-    public void increase(int num) {
-        result = num++;
-    }
-
-    
-    public void decrease(int num) {
-        result = num--;
-    }
-   
     public double logarithm(double num) {
         return Math.log(num);
     }
